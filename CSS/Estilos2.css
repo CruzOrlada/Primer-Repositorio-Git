@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.menu {
+    width: 25%;
+    float: right;
+    padding: 15px;
+    border: 1px double greenyellow;
+}
+.menu2 {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px double rosybrown;
+}
+.header {
+    width: 75%;
+    float: right;
+    padding: 30px;
+    border: 2px double darkturquoise;
+}
+.main {
+    width: 75%;
+    float: right;
+    padding: 60px;
+    border: 4px dotted navy;
+}
+* ul {
+    color: darkolivegreen;
+}
+* div {
+    color: darkmagenta;
+}
+body {
+    background-image: url(C:/Users/Admin/Pictures/251905589_452264456548460_22281028403760082_n.jpg)
+}

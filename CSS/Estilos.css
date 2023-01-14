@@ -1,0 +1,59 @@
+* {
+    color: grey;
+}
+p, span {
+    color: violet;
+    width: 300px;
+}
+/* ESTE ES UN COMENTARIO FLOTADOR DE UN DOCUMENTO CSS*/
+h1, h2, h3, h4, h5, h6, h7 {
+    border-left: 25px dotted silver;
+    border-right: 25px dotted gold;
+    border-top: 25px double red;
+    border-bottom: 25px double blue;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    /* margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px; */
+    margin: 75px 25px 125px -55px;
+    font-weight: bold;
+    color: blueviolet;
+    width: 310px;
+}
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+#a1 {
+    font-size: xx-large;
+    border: 10px dotted orchid;
+     color:aquamarine;
+}
+#a2 {
+    font-size: xx-large;
+    border: 10px dotted orchid;
+    color:salmon
+}
+#a3 {
+    font-size: xx-large;
+    border: 10px dotted orchid;
+    color:khaki
+}
+.unaclase {
+    font-style: italic;
+    color: chocolate;
+}
+section h1{
+    font-stretch: ultra-condensed;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: black;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d8/Friedrich-Johann-Justin-Bertuch_Mythical-Creature-Dragon_1806.jpg);
+}
