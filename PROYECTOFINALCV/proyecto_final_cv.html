@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="proyecto_final_cv.css" />
+    <meta property="og:title" content="proyecto_final_cv">
+    <meta property="og:type" content="website">
+    <meta property="og:image" contect="https://img.freepik.com/foto-gratis/papel-arena-azul-turquesa_53876-92791.jpg?w=740&t=st=1674354246~exp=1674354846~hmac=6a485a676188cdffd131104dd723c17534b95eff5d8676e6e8f8e432d8f82038">
+    <meta property="og:description" content="hacemos nuestro primero proyecto para ticmas"> 
+    <link rel="icon" type="image/x-icon" href="https://img.freepik.com/foto-gratis/papel-arena-azul-turquesa_53876-92791.jpg?w=740&t=st=1674354246~exp=1674354846~hmac=6a485a676188cdffd131104dd723c17534b95eff5d8676e6e8f8e432d8f82038">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+
+<body>
+
+    <img src="https://randomuser.me/api/portraits/men/91.jpg" alt="foto de CV" height="110px" width="195px" style="float:left;"/>
+
+    <div class="col- header">
+        <h1>GREGORIO WASHINGTON</h1>
+        <h2 style="font-style:italic">Lic. en programación</h2>
+    </div>
+
+    <div class="col- menu">
+        <ul>
+            <li>Soy una persona proactiva, organizada y responsable,</li>
+            <li>Poseo buenas relaciones interpersonales.</li>
+            <li>Siempre tengo la mejor disposición para la realización de mis labores.</li>
+            <li>Busco un puesto desafiante donde pueda continuar aprendiendo.</li>
+        </ul>
+    </div>
+
+    <!--Aquí ponemos un botón que muestre la información con respecto al apartado EDUCACIÓN valiéndonos de JS-->
+    <div class="col- main">
+        <h4 class="marcar">EDUCACIÓN</h4>
+        <h5 class="marcar">Universidad "Genial"</h5>
+        <p id="educación"></p>
+        <p id="educación2"></p>
+        <button type="button" id="educación3">Haz click para ver más</button>
+    </div>
+
+    <!--Aquí ponemos un botón que muestre la información con respecto al apartado EXPERIENCIA LABORAL valiéndonos de JS-->
+    <div class="col- main">
+        <h4 class="marcar">EXPERIENCIA LABORAL</h4>
+        <p id="explab"></p>
+        <p id="explab2"></p>
+        <button type="button" id="explab3">Haz click para ver más</button>
+    </div>
+
+    <!--Aquí ponemos un botón que muestre la información con respecto al apartado CONTACTO valiéndonos de JS-->
+    <div class="col- menu2">
+        <h4 class="marcar">CONTACTO</h4>
+        <ul>
+            <li id="contacto"></li>
+            <li id="contacto2"></li>
+            <li id="contacto3"></li>
+            <button type="button" id="contacto4">Mostrar</button>
+        </ul>
+    </div>
+
+    <!--Aquí ponemos un botón que muestre la información con respecto al apartado IDIOMAS/CURSOS valiéndonos de JS-->
+    <div class="col- main">
+        <h4 class="marcar">IDIOMAS/CURSOS</h4>
+        <h5 class="marcar">Idioma Inglés</h5>
+        <span id="idioma"></span>
+        <h5 class="marcar">Curso de manejo de redes sociales</h5>
+        <span id="curso"></span>
+        <button type="button" id="idioma_curso">Haz click para ver más</button>
+    </div>
+
+    <script src="proyecto_final_cv.js"></script>
+
+</body>
+</html>

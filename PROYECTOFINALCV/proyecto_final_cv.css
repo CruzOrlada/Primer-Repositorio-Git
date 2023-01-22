@@ -1,0 +1,42 @@
+* {
+    box-sizing:border-box 
+}
+.header {
+    font-size: 57%;
+    width: 74%;
+    float: right;
+    padding: 18px;
+    border: 1px double gold;
+}
+.menu {
+    font-style: italic;
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid gold;
+}
+.menu2 {
+    width: 25%;
+    float: left;
+    padding: 27px;
+    border: 1px solid gold;
+}
+.main {
+    width: 75%;
+    float: right;
+    padding: 12px;
+    border: 1px solid gold;
+}
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/papel-arena-azul-turquesa_53876-92791.jpg?w=740&t=st=1674353997~exp=1674354597~hmac=4517797d3a9630f77a308ac94725ad6f4a156cdaa0669ab2ffd5359a6ed88456);
+    color: rgb(1, 255, 166);
+    font-stretch: ultra-condensed;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Para que en celulares y pantallas <= 768px se vea cada apartado uno debajo del otro, en una sola columna (más prolijo)*/
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
